@@ -1,0 +1,21 @@
+{
+  "name": "automation-test-using-mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha tests/*.js --reporter mochawesome --require mochawesome/register",
+    "java": "java -jar dummy-api-automation-0.0.1.jar --server.port=1234"
+  },
+  "author": "Maulana-zusuf",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "chai-like": "^1.1.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}

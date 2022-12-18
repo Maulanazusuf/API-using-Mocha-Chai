@@ -1,0 +1,14 @@
+{
+    "id": "string",
+    "firstName": "Leo",
+    "lastName": "Messi",
+    "age": 30,
+    "occupation": "Volly Player",
+    "nationality": "Indonesian",
+    "hobbies": [
+        "Volleyball"
+    ],
+    "gender": "MALE",
+    "createdDate": "2022-12-18T08:45:47.845Z",
+    "updatedDate": null
+}

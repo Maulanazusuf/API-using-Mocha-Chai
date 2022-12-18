@@ -1,0 +1,124 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "firstName",
+        "lastName",
+        "age",
+        "occupation",
+        "nationality",
+        "hobbies",
+        "gender",
+        "createdDate",
+        "updatedDate"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "default": "",
+            "title": "The id Schema",
+            "examples": [
+                "8c1d80a3-b842-43dd-bac8-0d17c5bdc565"
+            ]
+        },
+        "firstName": {
+            "type": "string",
+            "default": "",
+            "title": "The firstName Schema",
+            "examples": [
+                "Kamen"
+            ]
+        },
+        "lastName": {
+            "type": "string",
+            "default": "",
+            "title": "The lastName Schema",
+            "examples": [
+                "Rider"
+            ]
+        },
+        "age": {
+            "type": "integer",
+            "default": 0,
+            "title": "The age Schema",
+            "examples": [
+                30
+            ]
+        },
+        "occupation": {
+            "type": "string",
+            "default": "",
+            "title": "The occupation Schema",
+            "examples": [
+                "Soccer Athlete"
+            ]
+        },
+        "nationality": {
+            "type": "string",
+            "default": "",
+            "title": "The nationality Schema",
+            "examples": [
+                "Indonesian"
+            ]
+        },
+        "hobbies": {
+            "type": "array",
+            "default": [],
+            "title": "The hobbies Schema",
+            "items": {
+                "type": "string",
+                "default": "",
+                "title": "A Schema",
+                "examples": [
+                    "Riding a motorcycle"
+                ]
+            },
+            "examples": [
+                [
+                    "Riding a motorcycle"]
+            ]
+        },
+        "gender": {
+            "type": "string",
+            "default": "",
+            "title": "The gender Schema",
+            "examples": [
+                "MALE"
+            ]
+        },
+        "createdDate": {
+            "type": "string",
+            "default": "",
+            "title": "The createdDate Schema",
+            "examples": [
+                "2022-08-11T20:10:57.86"
+            ]
+        },
+        "updatedDate": {
+            "type": "string",
+            "default": "",
+            "title": "The updatedDate Schema",
+            "examples": [
+                "2022-08-11T20:14:23.688"
+            ]
+        }
+    },
+    "examples": [{
+        "id": "8c1d80a3-b842-43dd-bac8-0d17c5bdc565",
+        "firstName": "Kamen",
+        "lastName": "Rider",
+        "age": 30,
+        "occupation": "Soccer Athlete",
+        "nationality": "Indonesian",
+        "hobbies": [
+            "Riding a motorcycle"
+        ],
+        "gender": "MALE",
+        "createdDate": "2022-08-11T20:10:57.86",
+        "updatedDate": "2022-08-11T20:14:23.688"
+    }]
+}
